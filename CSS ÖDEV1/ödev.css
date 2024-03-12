@@ -1,0 +1,46 @@
+
+    header ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    header li {
+        margin-right: 10px;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    body {
+        position: relative;
+    }
+    
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h1{
+        color: rgb(207, 59, 59);
+    }
+    h2
+    {
+        color: purple;
+    }
+    h3,h4{
+        color: rgb(159, 108, 6);
+    }
